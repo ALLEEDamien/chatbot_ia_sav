@@ -7,7 +7,9 @@ Chatbot de support client propulsé par l'API Groq (modèle configurable, `llama
 
 ## Démo
 
-![Démo du chatbot SAV](docs/demo.gif)
+<p align="center">
+  <img src="docs/demo.gif" alt="Démo du chatbot SAV" width="300">
+</p>
 
 Le chatbot répond aux questions des clients à partir des documents (FAQ, catalogue, politiques...) envoyés depuis la page d'administration.
 
