@@ -5,6 +5,12 @@ Chatbot de support client propulsé par l'API Groq (modèle configurable, `llama
 - **Backend** : FastAPI (Python)
 - **Frontend** : React + Vite + Tailwind CSS + React Router
 
+## Démo
+
+![Démo du chatbot SAV](docs/demo.gif)
+
+Le chatbot répond aux questions des clients à partir des documents (FAQ, catalogue, politiques...) envoyés depuis la page d'administration.
+
 ## Backend
 
 1. Se placer dans le dossier `backend` :
