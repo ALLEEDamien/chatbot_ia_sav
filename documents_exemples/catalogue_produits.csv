@@ -1,0 +1,13 @@
+id,nom,description,prix,stock,categorie,delai_livraison
+P001,Sneaker Urban Run Blanc,Chaussure de running légère semelle amortissante coloris blanc disponible du 36 au 45,89.90,47,Chaussures,3 à 5 jours ouvrés
+P002,Sneaker Urban Run Noir,Chaussure de running légère semelle amortissante coloris noir disponible du 36 au 45,89.90,32,Chaussures,3 à 5 jours ouvrés
+P003,Hoodie Oversize Beige,Sweat à capuche coupe oversize 100% coton bio taille S M L XL XXL,54.90,120,Hauts,2 à 4 jours ouvrés
+P004,Hoodie Oversize Noir,Sweat à capuche coupe oversize 100% coton bio taille S M L XL XXL,54.90,85,Hauts,2 à 4 jours ouvrés
+P005,Cargo Pant Kaki,Pantalon cargo poches latérales coupe droite taille 36 au 44,69.90,60,Bas,2 à 4 jours ouvrés
+P006,Cargo Pant Noir,Pantalon cargo poches latérales coupe droite taille 36 au 44,69.90,40,Bas,2 à 4 jours ouvrés
+P007,T-shirt Essential Blanc pack de 3,Lot de 3 t-shirts basiques col rond 100% coton disponible en S M L XL,39.90,200,Hauts,2 à 4 jours ouvrés
+P008,Casquette Logo Brodé Noire,Casquette 6 panneaux broderie logo avant réglable taille unique,24.90,150,Accessoires,1 à 3 jours ouvrés
+P009,Sac à dos Urban 20L Gris,Sac à dos 20 litres compartiment laptop 15 pouces poche avant USB,59.90,75,Accessoires,3 à 5 jours ouvrés
+P010,Chaussettes Pack x5 Blanc,Lot de 5 paires de chaussettes courtes coton taille 39-42 ou 43-46,19.90,300,Accessoires,1 à 3 jours ouvrés
+P011,Veste Coach Noire,Veste légère style coach imperméable taille S M L XL,79.90,55,Vestes,3 à 5 jours ouvrés
+P012,Bermuda Tech Gris,Short technique séchage rapide taille 38 au 48,44.90,90,Bas,2 à 4 jours ouvrés

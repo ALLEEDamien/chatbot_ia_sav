@@ -1,0 +1,47 @@
+/* Feuille de style globale : charge Tailwind puis définit le thème du widget et de l'admin. */
+@import "tailwindcss";
+
+/*
+  Thème du widget SAV, piloté par variables CSS.
+  Un site intégrateur peut surcharger ces valeurs (ex: sur #sav-widget)
+  pour adapter les couleurs à sa propre charte, sans toucher au JS/CSS du composant.
+*/
+:root {
+  --sav-primary: #2563eb;
+  --sav-primary-hover: #1d4ed8;
+  --sav-primary-contrast: #ffffff;
+
+  --sav-bg: #f8fafc;
+  --sav-surface: #ffffff;
+  --sav-header-bg: #ffffff;
+  --sav-border: #e2e8f0;
+
+  --sav-text: #0f172a;
+  --sav-text-muted: #64748b;
+
+  --sav-bubble-user-bg: var(--sav-primary);
+  --sav-bubble-user-text: var(--sav-primary-contrast);
+  --sav-bubble-bot-bg: #f1f5f9;
+  --sav-bubble-bot-text: #0f172a;
+}
+
+/* Thème sombre : appliqué automatiquement selon la préférence du système. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sav-bg: #0f172a;
+    --sav-surface: #1e293b;
+    --sav-header-bg: #1e293b;
+    --sav-border: #334155;
+
+    --sav-text: #f1f5f9;
+    --sav-text-muted: #94a3b8;
+
+    --sav-bubble-bot-bg: #334155;
+    --sav-bubble-bot-text: #f1f5f9;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+}
